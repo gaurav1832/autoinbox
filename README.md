@@ -31,7 +31,6 @@ The service is designed to fetch emails, categorize them based on their content 
 1. Clone the repository:
     ``` 
     git clone https://github.com/gaurav1832/ReachInbix-Assignment.git 
-
     ```
 2. Navigate to the project directory: 
     ``` 
@@ -41,7 +40,6 @@ The service is designed to fetch emails, categorize them based on their content 
 3. Install dependencies:
     ```
     npm install
-
     ```
 4. Set up environment variables:
 - Create an env file `.env` and fill in the necessary API keys and OAuth credentials (GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, OUTLOOK_CLIENT_ID,OUTLOOK_CLIENT_SECRET, etc.)
