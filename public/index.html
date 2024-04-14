@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReachInbox</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-container {
+        border-radius: 10px;
+        padding: 40px;
+        text-align: center;
+        width: 350px;
+    }
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .login-button {
+        display: block;
+        width: calc(100% - 20px); /* subtract padding */
+        padding: 12px 10px;
+        margin: 10px auto;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.3s, transform 0.3s;
+    }
+    .google-btn {
+        background: linear-gradient(to right, #dd4b39, #e66941);
+    }
+    .outlook-btn {
+        background: linear-gradient(to right, #0072C6, #0084d1);
+    }
+    .login-button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    }
+</style>
+</head>
+<body>
+<div class="login-container">
+    <h1>ReachInbox.ai Assignment</h1>
+    <h2>Login with:</h2>
+    <a href="http://localhost:5000/auth/google" class="login-button google-btn">Google</a>
+    <a href="http://localhost:5000/auth/outlook" class="login-button outlook-btn">Outlook</a>
+</div>
+</body>
+</html>
