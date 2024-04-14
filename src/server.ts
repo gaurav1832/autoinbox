@@ -27,7 +27,7 @@ setupOutlookAuthRoutes(app);
 
 app.listen(PORT, async () => {
   // Clear and reset task queue on server start
-  await emailTaskQueue.clean(0, 99999);
+  await emailTaskQueue.clean(0, 1000);
   await emailTaskQueue.drain();
   await emailTaskQueue.obliterate({ force: true });
   console.log(`Server running on http://localhost:${PORT}`);
