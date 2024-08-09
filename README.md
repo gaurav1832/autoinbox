@@ -1,4 +1,4 @@
-# ReachInbix-Assignment
+# AutoImbox
 ## Automatic Email Parsing and Analysis Tool
 
 This project provides a robust solution for managing emails via Google and Microsoft Outlook APIs, integrated within a Node.js application. It handles authentication, email retrieval, automatic labeling, and sending replies based on analyzed content.
