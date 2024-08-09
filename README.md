@@ -30,11 +30,11 @@ The service is designed to fetch emails, categorize them based on their content 
 
 1. Clone the repository:
     ``` 
-    git clone https://github.com/gaurav1832/ReachInbix-Assignment.git 
+    git clone https://github.com/gaurav1832/autoinbox.git 
     ```
 2. Navigate to the project directory: 
     ``` 
-    example:  cd ReachInbix-Assignment
+    example:  cd autoinbox
     ```
 
 3. Install dependencies:
